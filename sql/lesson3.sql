@@ -42,3 +42,10 @@ SELECT id , na , cname , ename
 FROM stationsnum
 WHERE cname LIKE '%港';
 
+SELECT id , na , cname , ename 
+FROM stationsnum
+WHERE id <= '10';
+
+SELECT id , na , cname , ename 
+FROM stationsnum
+WHERE id <= '20' AND id >= '10';
